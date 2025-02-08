@@ -1,0 +1,22 @@
+{
+  "name": "detect-unused-images",
+  "version": "1.0.0",
+  "description": "This repo is an example of how we can detect unused images in a codebase as part of CI/CD pipeline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devtools-Tech-Team/detect-unused-images.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devtools-Tech-Team/detect-unused-images/issues"
+  },
+  "homepage": "https://github.com/Devtools-Tech-Team/detect-unused-images#readme",
+  "dependencies": {
+    "framer-motion": "^12.4.1"
+  }
+}
