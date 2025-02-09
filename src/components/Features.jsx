@@ -5,8 +5,6 @@ import IllustrationOne from "../images/1.jpg";
 import IllustrationTwo from "../images/2.jpg";
 import IllustrationThree from "../images/3.jpg";
 import IllustrationFour from "../images/4.jpg";
-import IllustrationFive from "../images/5.jpg";
-import IllustrationSix from "../images/6.jpg";
 
 const Feature = ({ title, description, graphic }) => {
   return (
@@ -56,16 +54,6 @@ function Features() {
         title="Feature Four"
         description="Description of feature four"
         imageUrl={IllustrationFour}
-      />
-      <Feature
-        title="Feature Five"
-        description="Description of feature five"
-        imageUrl={IllustrationFive}
-      />
-      <Feature
-        title="Feature Six"
-        description="Description of feature Six"
-        imageUrl={IllustrationSix}
       />
     </div>
   );
